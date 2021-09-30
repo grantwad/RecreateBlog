@@ -1,0 +1,48 @@
+/* Importing/Linking to the Lato Google Font (NOTE: Can also link to font in the HTML Head tags */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+div {
+    border: 20px solid #BDC3C7;
+    width: 80%;
+    /* Setting the width of an element using VW will set the width to a percentage of the width of the browser window */
+    /* width: 80vw; */
+    margin: auto;
+    padding: 0 20px;
+
+}
+
+h2 {
+    letter-spacing: 3.2px;
+    /* H2 elements are bold by default. So setting the font weight to bold/700 is not actually necessary. */
+    font-weight: 700;
+    /* font-weight: bold; */
+    font-size: 48px;
+    color: #3D3D3D;
+/* Sets the top margin to 20px, left/right to 0, bottom to 0 */
+margin: 20px 0 0;
+}
+
+p:nth-of-type(1) {
+    color: blue;
+    text-align: right;
+    margin: 0;
+}
+
+p:nth-of-type(even) {
+    text-align: right;
+}
+
+p:nth-of-type(3) {
+    text-align: center;
+    border-top: 5px solid #BDC3C7;
+    border-bottom: 5px solid #BDC3C7;
+    padding: 15px 0;
+}
+
+hr {
+    border: 5px solid #BDC3C7;
+}
